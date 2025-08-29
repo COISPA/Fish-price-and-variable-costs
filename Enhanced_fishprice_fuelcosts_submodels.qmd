@@ -274,7 +274,7 @@ Once that the 5 models have been fit, a number of outcomes are automatically sav
 
 ```{r, echo=FALSE, results='asis', message=FALSE}
 
-tab1= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs\\output_fishprice\\all_fittings.csv",sep=";",header=TRUE)
+tab1= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs_task 2.2\\output_fishprice\\all_fittings.csv",sep=";",header=TRUE)
 
 
 # Tabella senza caption, centrata e con bordi
@@ -289,7 +289,7 @@ kable(head(tab1), align = c("l","l")) %>%
 
 ```{r, echo=FALSE, results='asis', message=FALSE}
 
-tab2= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs\\output_fishprice\\Price_fittings.csv",sep=";",header=TRUE)
+tab2= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs_task 2.2\\output_fishprice\\Price_fittings.csv",sep=";",header=TRUE)
 
 
 # Tabella senza caption, centrata e con bordi
@@ -305,7 +305,7 @@ kable(head(tab2), align = c("l","l")) %>%
 
 ```{r, echo=FALSE, results='asis', message=FALSE}
 
-tab3= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs\\output_fishprice\\mod_selected.csv",sep=";",header=TRUE)
+tab3= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs_task 2.2\\output_fishprice\\mod_selected.csv",sep=";",header=TRUE)
 
 
 # Tabella senza caption, centrata e con bordi
@@ -320,7 +320,7 @@ kable(head(tab3), align = c("l","l")) %>%
 
 ```{r, echo=FALSE, results='asis', message=FALSE}
 
-tab3= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs\\output_fishprice\\mod_selected.csv",sep=";",header=TRUE)
+tab3= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs_task 2.2\\output_fishprice\\mod_selected.csv",sep=";",header=TRUE)
 
 
 # Tabella senza caption, centrata e con bordi
@@ -354,7 +354,7 @@ Two main outcomes support the user in the definition of the enhanced sub-models 
 
 ```{r, echo=FALSE, results='asis', message=FALSE}
 
-tab1= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs\\FuelCosts\\EnCost_model1.csv",sep=";",header=TRUE)
+tab1= read.table("C:\\Users\\Bitetto Isabella\\OneDrive - Coispa Tecnologia & Ricerca S.C.A.R.L\\H2020-SEAwise\\_____________WP2\\MOOCs_task 2.2\\FuelCosts\\EnCost_model1.csv",sep=";",header=TRUE)
 
 
 # Tabella senza caption, centrata e con bordi
@@ -389,7 +389,7 @@ knitr::include_graphics("model_selection_flow_vertical.png")
 
 
 <div class="callout-guidelines">
-<div class="title">📌 Guidelines for model selection</div>
+<div class="title">💡 Tips for model selection</div>
 <ul>
 <li><strong>Do not rely only on RMSE</strong>: statistical fit may compensate opposite residuals and not always capture real price dynamics.</li>
 <li><strong>Check the elasticity values</strong>: when coefficients are close to zero, constant-price models may be more robust.</li>
