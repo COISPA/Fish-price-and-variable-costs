@@ -394,7 +394,7 @@ knitr::include_graphics("model_selection_flow_vertical.png")
 <li><strong>Do not rely only on RMSE</strong>: statistical fit may compensate opposite residuals and not always capture real price dynamics.</li>
 <li><strong>Check the elasticity values</strong>: when coefficients are close to zero, constant-price models may be more robust.</li>
 <li><strong>Prefer elasticity-based models</strong> when stronger relationships between landings and prices are evident.</li>
-<li><strong>Balance statistical and interpretative criteria</strong>: the best model is both statistically sound and economically/ecologically plausible.</li>
+<li><strong>Balance statistical and interpretative criteria</strong>: the best model is both statistically sound and economically plausible.</li>
 <li><strong>Focus on recent dynamics</strong>: models should reproduce recent price behaviour, since enhanced sub-models are used for future projections.</li>
 </ul>
 </div>
